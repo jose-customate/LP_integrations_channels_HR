@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="hr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Povežite Svoj Backend - Customate</title> 
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="https://github.com/jose-customate/email_signature_logo/blob/main/0803cm.png?raw=true">
+    <meta name="description" content="Customate pomaže tvrtkama integrirati njihove backend sustave s našim AI-powered rješenjem za korisničku podršku. Povežite se sa Salesforce, Zendesk, Shopify i više.">
+  </head>
+  <body>
+    <!-- Top thin black banner with Language Dropdown -->
+    <div class="top-banner">
+      <div class="language-dropdown">
+        <button class="language-button">
+          <i class="fas fa-globe"></i> Hrvatski <i class="fas fa-chevron-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="#">Deutsch</a>
+          <a href="#">English</a>
+          <a href="#">Español</a>
+          <a href="#">Hrvatski</a>
+          <a href="#">Norsk</a>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Main navigation -->
+    <header class="header">
+      <div class="container-fluid">
+        <nav class="navbar">
+          <div class="navbar-brand">
+            <a href="https://www.customate.ai">
+              <img src="https://github.com/jose-customate/email_signature_logo/blob/main/0803cm.png?raw=true" alt="Customate" class="logo" />
+            </a>
+          </div>
+          
+          <div class="navbar-menu">
+            <div class="navbar-start">
+              <div class="navbar-item has-dropdown">
+                <a class="navbar-link">
+                  <span>Integracije</span>
+                  <i class="fas fa-chevron-down"></i>
+                </a>
+                <div class="navbar-dropdown">
+                  <a href="https://www.customate.ai/integratebackend" class="dropdown-item">
+                    <i class="dropdown-icon backend-icon"></i>
+                    Backend
+                  </a>
+                  <a href="https://www.customate.ai/integratechannels" class="dropdown-item">
+                    <i class="dropdown-icon channels-icon"></i>
+                    Kanali
+                  </a>
+                </div>
+              </div>
+              
+              <a href="https://www.customate.ai/pricing" class="navbar-item">Cijene</a>
+              <a href="https://www.customate.ai/blog" class="navbar-item">Blog</a>
+            </div>
+            
+            <div class="navbar-end">
+              <a href="#" class="navbar-item btn-login">Prijava</a>
+              <a href="#" class="navbar-item btn-primary">Registracija</a>
+            </div>
+          </div>
+          
+          <div class="navbar-burger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+  <!-- Channels Section -->
+<section class="channels-hero">
+  <div class="container">
+    <div class="channels-header">
+      <h1>Povežite se s vašim korisnicima na <span class="highlight">svakom kanalu</span></h1>
+      <p class="subtitle">AI podrška koja radi na svim platformama koje vaši korisnici koriste</p>
+    </div>
+    
+    <div class="channels-grid">
+      <!-- Available Channels -->
+      <div class="channel-card available">
+        <div class="channel-icon">
+          <img src="https://raw.githubusercontent.com/jose-customate/CustomatePics/fc54e4adf4323d79fb1a0017bf303057f5442cd9/04052025.svg" alt="Web Chatbot" width="48" height="48">
+        </div>
+        <h3>Web Chatbot</h3>
+        <p>Ugradite AI podršku izravno na vašu web stranicu za trenutnu pomoć korisnicima 24/7</p>
+        <span class="status live">Dostupno</span>
+        <button class="learn-more">Saznajte više</button>
+      </div>
+      
+      <div class="channel-card available">
+        <div class="channel-icon whatsapp">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/WhatsApp_Logo_green.svg/1018px-WhatsApp_Logo_green.svg.png" alt="WhatsApp" width="48" height="48">
+        </div>
+        <h3>WhatsApp Business</h3>
+        <p>Povežite se s korisnicima na WhatsAppu s automatiziranim AI razgovorima</p>
+        <span class="status live">Dostupno</span>
+        <button class="learn-more">Saznajte više</button>
+      </div>
+      
+      <div class="channel-card available">
+        <div class="channel-icon social">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Facebook_Messenger_logo_2025.svg/1024px-Facebook_Messenger_logo_2025.svg.png" alt="Facebook Messenger" width="48" height="48">
+        </div>
+        <h3>Facebook i Instagram</h3>
+        <p>Upravljajte porukama na društvenim mrežama s inteligentnim AI odgovorima</p>
+        <span class="status live">Dostupno</span>
+        <button class="learn-more">Saznajte više</button>
+      </div>
+      
+      <!-- Coming Soon Channels -->
+      <div class="channel-card coming-soon">
+        <div class="channel-icon">
+          <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="4" y="9" width="40" height="30" rx="3" stroke="currentColor" stroke-width="2"/>
+            <path d="M4 12l20 13 20-13" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+        <h3>Email podrška</h3>
+        <p>AI email odgovori s razumijevanjem konteksta</p>
+        <span class="status upcoming">Uskoro</span>
+      </div>
+      
+      <div class="channel-card coming-soon">
+        <div class="channel-icon">
+          <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M43 31.8v5.4c0 1.4-1.6 2.4-2.8 2.4-14 0-25.4-11.5-25.4-25.6C14.8 12.6 15.8 11 17.2 11h5.4c.9 0 1.7.6 1.9 1.5.5 2.2 1.5 4.4 2.8 6.3.8 1 .6 2.4-.3 3.3l-2.2 2.2c1.9 3.6 4.8 6.5 8.4 8.4l2.2-2.2c.9-.9 2.3-1.1 3.3-.3 1.9 1.3 4.1 2.3 6.3 2.8.9.2 1.6 1 1.6 1.9z" stroke="currentColor" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+        <h3>Glasovna podrška</h3>
+        <p>AI telefonska podrška s prirodnom glasovnom interakcijom</p>
+        <span class="status upcoming">Uskoro</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Integration Section -->
+<section class="integration-section">
+  <div class="container">
+    <div class="integration-content">
+      <h2>Jedinstveno korisničko iskustvo na svim kanalima</h2>
+      <p>Naša AI platforma besprijekorno se integrira s vašim postojećim dodirnim točkama s korisnicima, pružajući dosljedna iskustva podrške bez obzira na koji način vas korisnici kontaktiraju. Od web chata do poruka na društvenim mrežama, svaka interakcija pogonjena je istim inteligentnim sustavom koji razumije kontekst i pruža personaliziranu pomoć.</p>
+      <div class="feature-highlights">
+        <div class="feature">
+          <div class="feature-icon">✓</div>
+          <div class="feature-text">
+            <h4>Razumijevanje konteksta</h4>
+            <p>AI razumije povijest razgovora kroz sve kanale</p>
+          </div>
+        </div>
+        <div class="feature">
+          <div class="feature-icon">✓</div>
+          <div class="feature-text">
+            <h4>Dostupnost 24/7</h4>
+            <p>Trenutni odgovori tijekom cijelog dana</p>
+          </div>
+        </div>
+        <div class="feature">
+          <div class="feature-icon">✓</div>
+          <div class="feature-text">
+            <h4>Višejezičnost</h4>
+            <p>Podrška na više od 50 jezika</p>
+          </div>
+        </div>
+      </div>
+      <div class="cta-buttons">
+        <button class="primary-button">Započnite besplatnu probu</button>
+        <button class="secondary-button">Dogovorite demonstraciju</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-main">
+          <div class="footer-brand">
+            <img src="https://github.com/jose-customate/email_signature_logo/blob/main/0803cm.png?raw=true" alt="Customate" class="footer-logo" />
+            <p>Automatizirajte korisničku podršku</p>
+          </div>
+        </div>
+        
+        <div class="bottom-bar">
+          <div class="links">
+            <a href="https://www.customate.ai/imprint" target="_blank">Impresum</a>
+            <a href="https://www.customate.ai/tac" target="_blank">Uvjeti korištenja</a>
+            <a href="https://www.customate.ai/datause" target="_blank">Korištenje podataka</a>
+            <a href="#contact" class="contactLink">Kontaktirajte nas</a>
+          </div>
+          <strong>
+            <a href="#feedback" class="feedback">Povratne informacije</a>
+          </strong>
+        </div>
+      </div>
+    </footer>
+  
+    <!-- Feedback Modal -->
+    <div id="feedbackModal" class="modal">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3>Cijenimo vaše povratne informacije</h3>
+          <span class="close">&times;</span>
+        </div>
+        <div class="modal-body">
+          <p>Pomozite nam poboljšati naš proizvod — što možemo učiniti bolje? Također, molimo vas da nam kažete o izazovima korisničke podrške s kojima se suočavate u vašem poslovanju.</p>
+          <textarea id="feedbackInput" placeholder="Vaše povratne informacije ovdje..."></textarea>
+        </div>
+        <div class="modal-footer">
+          <button class="btn-secondary" id="cancelFeedback">Odustani</button>
+          <button class="btn-primary" id="sendFeedback">Pošalji povratne informacije</button>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Contact Modal -->
+    <div id="contactModal" class="modal">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3>Kontaktirajte naš tim</h3>
+          <span class="close">&times;</span>
+        </div>
+        <div class="modal-body">
+          <div class="form-group">
+            <label for="contactName">Ime</label>
+            <input type="text" id="contactName" placeholder="Vaše ime">
+          </div>
+          <div class="form-group">
+            <label for="contactEmail">Email</label>
+            <input type="email" id="contactEmail" placeholder="vaš@email.com">
+          </div>
+          <div class="form-group">
+            <label for="contactInput">Poruka</label>
+            <textarea id="contactInput" placeholder="Kako vam možemo pomoći?"></textarea>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button class="btn-secondary" id="cancelContact">Odustani</button>
+          <button class="btn-primary" id="sendContact">Pošalji poruku</button>
+        </div>
+      </div>
+    </div>
+    
+    <script src="script.js"></script>
+  </body>
+</html>
